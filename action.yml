@@ -1,0 +1,12 @@
+name: 'mdAL Generator'
+description: 'Generate AL code from mdAL model files'
+author: 'joneug'
+inputs:
+    model-file:
+        description: 'The mdAL model file'
+        required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.model-file }}
