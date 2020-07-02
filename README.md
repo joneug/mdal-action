@@ -1,4 +1,4 @@
-# `mdAL generator for GitHub Actions
+# `mdAL` generator for GitHub Actions
 
 This action allows you to generate AL code from `mdAL` model files.
 
