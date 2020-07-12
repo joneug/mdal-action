@@ -7,6 +7,6 @@ inputs:
         required: true
 runs:
   using: 'docker'
-  image: 'docker://docker.pkg.github.com/joneug/mdal/mdal'
+  image: 'docker://joneug/mdal'
   args:
     - ${{ inputs.model-file }}
