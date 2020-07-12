@@ -1,4 +1,4 @@
-# `mdAL` generator for GitHub Actions
+# `mdAL` for GitHub Actions
 
 This action allows you to generate AL code from `mdAL` model files.
 
@@ -6,18 +6,12 @@ This action allows you to generate AL code from `mdAL` model files.
 
 ### `model-file`
 
-**Required** The mdAL model file.
-
-## Outputs
-
-### `time`
-
-The time we greeted you.
+**Required** The `mdAL` model file.
 
 ## Example usage
 
 ```yml
-uses: actions/mdal-generator-action@master
+uses: actions/mdal-action@master
 with:
-  model-file: './src/seminar.mdal'
+  model-file: 'src/model.mdal'
 ```
