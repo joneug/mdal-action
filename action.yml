@@ -6,7 +6,5 @@ inputs:
         description: 'The mdAL model file'
         required: true
 runs:
-  using: 'docker'
-  image: 'docker://joneug/mdal'
-  args:
-    - ${{ inputs.model-file }}
+  using: 'node12'
+  main: 'index.js'
