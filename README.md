@@ -15,3 +15,7 @@ uses: actions/mdal-action@v1
 with:
   model-file: 'src/model.mdal'
 ```
+
+## License
+
+Apache 2.0 (c) Jonathan Neugebauer
