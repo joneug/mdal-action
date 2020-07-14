@@ -1,6 +1,9 @@
 name: 'mdAL CLI'
 description: 'Generate AL code from mdAL model files'
 author: 'joneug'
+branding:
+  icon: 'terminal'  
+  color: 'gray-dark'
 inputs:
     model-file:
         description: 'The mdAL model file'
