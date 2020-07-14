@@ -64,9 +64,9 @@ async function run() {
     await exec.exec('docker', ['pull', '-q', image], {});
 
     if (process.platform.toLowerCase() === 'win32') {
-      await exec.exec('docker', ['run', '--rm', '-v', `${__dirname}:C:/project`, image, modelFile], {});
+      await exec.exec('docker', ['run', '--rm', '-v', `${process.cwd()}:C:/project`, image, modelFile], {});
     } else {
-      await exec.exec('docker', ['run', '--rm', '-v', `${__dirname}:/project`, image, modelFile], {});
+      await exec.exec('docker', ['run', '--rm', '-v', `${process.cwd()}:/project`, image, modelFile], {});
     }
 
   } catch (error) {
