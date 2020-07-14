@@ -1,4 +1,4 @@
-name: 'mdAL'
+name: 'mdAL CLI'
 description: 'Generate AL code from mdAL model files'
 author: 'joneug'
 inputs:
