@@ -11,7 +11,7 @@ This action allows you to generate AL code from `mdAL` model files. Find out mor
 ## Example usage
 
 ```yml
-uses: actions/mdal-action@v1
+uses: mdal-lang/mdal-action@v1
 with:
   model-file: 'src/model.mdal'
 ```
