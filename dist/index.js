@@ -55,7 +55,7 @@ module.exports =
 const core = __webpack_require__(310);
 const exec = __webpack_require__(230);
 
-const image = 'joneug/mdal';
+const image = 'mdal/cli';
 
 async function run() {
   try {

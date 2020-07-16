@@ -1,7 +1,7 @@
 const core = require('@actions/core');
 const exec = require('@actions/exec');
 
-const image = 'joneug/mdal';
+const image = 'mdal/cli';
 
 async function run() {
   try {
