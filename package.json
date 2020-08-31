@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joneug/mdal-action.git"
+    "url": "git+https://github.com/mdal-lang/mdal-action.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/joneug/mdal-action/issues"
+    "url": "https://github.com/mdal-lang/mdal-action/issues"
   },
-  "homepage": "https://github.com/joneug/mdal-action#readme",
+  "homepage": "https://github.com/mdal-lang/mdal-action#readme",
   "dependencies": {
     "@actions/core": "^1.2.4",
     "@actions/exec": "^1.0.4",
